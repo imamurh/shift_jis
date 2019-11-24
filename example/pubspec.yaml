@@ -1,0 +1,21 @@
+name: shift_jis_example
+description: Demonstrates how to use the shift_jis plugin.
+version: 0.0.1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  shift_jis:
+    path: ../
+
+flutter:
+  uses-material-design: true

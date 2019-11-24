@@ -1,0 +1,21 @@
+name: shift_jis
+description: Shift_JIS Encoding and Decoding Library for Flutter.
+version: 0.0.1
+author: Hajime Imamura <imamurh@gmail.com>
+homepage: https://github.com/imamurh/shift_jis
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: dev.imamurh.shift_jis
+    pluginClass: ShiftJisPlugin

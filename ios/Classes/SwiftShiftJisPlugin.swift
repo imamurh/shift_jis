@@ -27,7 +27,7 @@ public class SwiftShiftJisPlugin: NSObject, FlutterPlugin {
 extension SwiftShiftJisPlugin {
   private func encode(_ arguments: Any?, result: FlutterResult) {
     guard let string = arguments as? String else { return result(nil) }
-    let data = string.data(using: .shiftJIS)
+    let data = string.data(using: .shiftJIS, allowLossyConversion: true)
     result(data)
   }
 

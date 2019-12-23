@@ -1,6 +1,6 @@
 name: shift_jis
-description: Shift_JIS Encoding and Decoding Library for Flutter.
-version: 0.1.0
+description: Flutter plugin for Shift_JIS encoding and decoding, using platform channels.
+version: 0.2.0
 homepage: https://github.com/imamurh/shift_jis
 
 environment:

@@ -2,7 +2,7 @@
 
 Flutter plugin for Shift_JIS encoding and decoding, using platform channels.
 
-# Usage
+## Usage
 
 ```dart
 import 'package:shift_jis/shift_jis.dart';

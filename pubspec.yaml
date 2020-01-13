@@ -1,6 +1,6 @@
 name: shift_jis
 description: Flutter plugin for Shift_JIS encoding and decoding, using platform channels.
-version: 0.2.0
+version: 0.2.1
 homepage: https://github.com/imamurh/shift_jis
 
 environment:
